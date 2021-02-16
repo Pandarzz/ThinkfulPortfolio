@@ -1,64 +1,69 @@
-header, nav, main, footer, section, div, aside {
-  border: 2px solid #000;
+/* This changes the whole body background to the color beige! */
+body {
+  background-color:#f5f5dc;
 }
 
-header {
-  text-align:center;
-  background-color:beige;
-
-}
-
+/* This applies cursive to the word Thinkful in the header */
 .thinkful {
   font-family:cursive;
 }
-
+/* This creates our navbars borders on the top and bottom along with centering text inside */
 nav {
-  text-align:center;
+
+  border-top: 2px solid black;
+  border-bottom:2px solid black;
+}
+/* Creates a border after my image */
+.group {
+  border-top:2px solid black;
 }
 
-footer {
-  text-align:center;
-}
-
-img {
- width: 100%;
-height: auto;
-display:block;
-margin-left: auto;
- margin-right: auto;
-  
-
-}
-
+/* sets my About Me to be bigger */
 h3 {
-  text-align: center;
-  font-size:100%;
+  font-size:200%;
 }
 
-.aboutme {
-  text-align:center;
-}
-
+/* this class centers all text! */
 .center {
   text-align:center;
 }
-
+/* Adds some padding to before the Contact me and puts a border on top and bottom */
 .item {
-  background-color:beige;
-}
+  
+  padding:2em;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
 
-main {
-  background-color:beige;
-}
+  }
 
+/* Sets the link to be blue */ 
 a:link {
   color: blue;
 }
-
+/* When you hover over the link, it'll set it to red */
 a:hover {
 color: red;
 }
-
-a:after {
+/* When you visit the link, it'll set the color to green! */
+a:visited {
   color:green;
 }
+
+/* places a border around the article where the map image is */
+  article {
+   height:auto;
+
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+
+  }
+/* Fixes my portfolio picture and adds some padding along with the width */
+  .profilepic {
+    width:70%;
+    padding:2%;
+    height: auto;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
